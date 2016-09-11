@@ -202,6 +202,7 @@ const list = [
         key={i}
         title={item.title}
         icon={{name: item.icon}}
+        onPress={() => {}}
       />
     ))
   }
@@ -234,6 +235,7 @@ renderRow (rowData, sectionID) {
       title={rowData.name}
       subtitle={rowData.subtitle}
       avatar={rowData.avatar_url}
+      onPress={() => {}}
     />
   )
 }
